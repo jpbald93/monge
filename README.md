@@ -10,7 +10,7 @@ Here `ext O₁ O₂ r₁ r₂ = (r₁·O₂ − r₂·O₁)/(r₁ − r₂)` is 
 `det3 A B C` is the signed double area. This is **not** Mathlib's `MongePoint` (the Monge point of a
 simplex), which is a different theorem and is not used.
 
-**Status:** all statements proved, with no `sorry`. `gate.sh` checks 5 named declarations.
+**Status:** all statements proved, with no `sorry`. `gate.sh` checks 7 named declarations.
 
 ## Main statements
 
@@ -38,7 +38,7 @@ The gate fails if any of the following is true:
 - a named declaration is missing, or has an extra report;
 - a named declaration depends on anything other than `propext`, `Classical.choice` and `Quot.sound`.
 
-Output: `PASS (5 declarations, standard axioms only)`. Some of these are definitions, which may
+Output: `PASS (7 declarations, standard axioms only)`. Some of these are definitions, which may
 use a subset of the three axioms.
 
 `tests/tamper.sh` plants six kinds of fake proof in scratch copies (in `Monge/Basic.lean`) and checks
