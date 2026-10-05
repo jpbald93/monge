@@ -98,7 +98,7 @@ Desargues, Monge, Simson, Napoleon and Lami in Lean 4* (J. Bald, draft, 2026).
   title        = {Monge's three-circle theorem in Lean 4},
   year         = {2026},
   howpublished = {\url{https://github.com/jpbald93/monge}},
-  note         = {Lean 4 + Mathlib v4.33.1. Commit: [TODO]}
+  note         = {Lean 4 + Mathlib v4.33.1. Commit: 3d096869bc38711e2f92e6a0abf98c30e428ae35}
 }
 ```
 
