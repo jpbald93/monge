@@ -90,7 +90,7 @@ responsible for the result. The Lean kernel checks every proof.
 ## Citation
 
 This repository accompanies the paper *Classical plane geometry by coordinate certificates:
-Desargues, Monge, Simson, Napoleon and Lami in Lean 4* (J. Bald, draft, 2026).
+Desargues, Monge, Simson, Napoleon and Lami in Lean 4* (J. Bald, 2026).
 
 ```bibtex
 @misc{bald2026monge,
@@ -98,7 +98,7 @@ Desargues, Monge, Simson, Napoleon and Lami in Lean 4* (J. Bald, draft, 2026).
   title        = {Monge's three-circle theorem in Lean 4},
   year         = {2026},
   howpublished = {\url{https://github.com/jpbald93/monge}},
-  note         = {Lean 4 + Mathlib v4.33.1. Commit: 3d096869bc38711e2f92e6a0abf98c30e428ae35}
+  note         = {Lean 4 + Mathlib v4.33.1. Commit: a01f7504d12fd492dd30c66f880905b21cca3895}
 }
 ```
 
