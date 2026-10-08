@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "Monge's three-circle theorem in Lean 4"
+type: software
+authors:
+  - family-names: Bald
+    given-names: Josh
+    affiliation: "Independent researcher, Ontario, Canada"
+    email: jpbald93@gmail.com
+    orcid: "https://orcid.org/0009-0002-1317-6489"
+license: Apache-2.0
+repository-code: "https://github.com/jpbald93/monge"
+commit: "a01f7504d12fd492dd30c66f880905b21cca3895"
+date-released: "2026-10-07"
+preferred-citation:
+  type: article
+  title: "Classical plane geometry by coordinate certificates: Desargues, Monge, Simson, Napoleon and Lami in Lean 4"
+  authors:
+    - family-names: Bald
+      given-names: Josh
+      orcid: "https://orcid.org/0009-0002-1317-6489"
+  year: 2026
