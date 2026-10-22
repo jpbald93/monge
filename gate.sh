@@ -19,7 +19,7 @@ export PATH="$HOME/.elan/bin:$PATH"
 cd "$(dirname "$0")" || exit 1
 NS="Monge"
 LIB="Monge"
-REQUIRED="Monge.det3 Monge.det3_eq_zero_iff_collinear Monge.ext Monge.ext_eq_lineMap_homothety Monge.monge Monge.monge_example Monge.monge_example_values"
+REQUIRED="Monge.det3 Monge.det3_eq_zero_iff_collinear Monge.ext Monge.ext_eq_lineMap_homothety Monge.monge Monge.monge_example Monge.monge_example_values Monge.l14b_ext_unique Monge.l14_monge Monge.l14_monge_homothety Monge.l14w_monge Monge.Classical.cov_A2_a Monge.Classical.cov_A2_b Monge.Classical.cov_A2_obligation_ext Monge.Classical.cov_A2_obligation_int"
 SOURCES="Monge/*.lean Monge.lean"
 # Never fetch: the pinned Mathlib checkout must already be present.
 [ -e .lake/packages/mathlib ] || { echo "FAIL: Mathlib packages missing (run setup by hand)"; exit 1; }
